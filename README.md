@@ -6,7 +6,10 @@ A stylish and responsive landing page inspired by the aesthetics of Grand Theft 
 
 ## 📸 Preview
 
-![GTA IV Landing Page Preview](preview-image-url) <!-- Replace with a screenshot if available -->
+
+https://github.com/user-attachments/assets/c046304a-c1b7-4f22-8169-b24c891125b2
+
+
 
 ## 🛠 Tech Stack
 

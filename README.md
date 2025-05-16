@@ -1,30 +1,18 @@
-# React + Vite
+# GTA IV Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stylish and responsive landing page inspired by the aesthetics of Grand Theft Auto IV (GTA IV). This project mimics the gritty, cinematic vibe of the game for a bold and nostalgic web experience.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://gta-iv-8c8e3.web.app/](https://gta-iv-8c8e3.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![GTA IV Landing Page Preview](preview-image-url) <!-- Replace with a screenshot if available -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
 
-
-<!-- notes about mask -->
-This defines a mask:
-
-<defs>: Contains definitions (things like gradients, masks, etc.) that can be reused in the SVG.
-
-<mask id='viMask'>: Creates a mask with ID "viMask", which you’ll later apply to an image.
-
-<rect>: Fills the entire SVG with black, which in masking means “completely transparent” (you won’t see the image here).
-
-<text>: The text "VI" is in white, which means completely visible. It is centered both horizontally and vertically using:
-
-x='50%' and textAnchor='middle' for horizontal centering
-
-y='50%' (with some vertical offset, but good enough for rough centering)
-
-So this mask makes the image only visible inside the "VI" letters — everywhere else, the image will be invisible.
+- **HTML5** – Structure of the page
+- **CSS3** – Custom styling and layout
+- **JavaScript** – Interactivity and DOM manipulation
+- **GSAP (GreenSock Animation Platform)** – For smooth scroll-based and entrance animations
+- **Remix Icon** – Icon set used for UI elements
+- **Firebase Hosting** – For fast and secure deployment
